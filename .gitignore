@@ -1,4 +1,6 @@
 /Include/
 /Lib/
 /Scripts/
+/uploads/
 pyvenv.cfg
+/*.log
