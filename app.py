@@ -25,7 +25,7 @@ def rest():
 @app.route("/hello/")
 @app.route("/hello/<name>")
 def hello3(name=None):
-    return render_template("heool.html", name=name)
+    return render_template("hello.html", name=name)
 
 if __name__ == "__main__":
     with app.test_request_context():
